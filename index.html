@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Questions</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600') center/cover no-repeat;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:0;
+}
+.box{
+background:rgba(255,255,255,0.9);
+padding:20px;
+border-radius:15px;
+width:90%;
+max-width:400px;
+}
+input,textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+button{
+width:100%;
+padding:12px;
+background:#0066cc;
+color:white;
+border:none;
+border-radius:8px;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h2>Student Questions</h2>
+
+<form action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST">
+
+<label>Question 1</label>
+<input type="text" name="Question 1" required>
+
+<label>Question 2</label>
+<textarea name="Question 2" required></textarea>
+
+<input type="hidden" name="_next" value="https://www.jobbank.gc.ca/home">
+
+<button type="submit">Submit</button>
+
+</form>
+</div>
+
+</body>
+</html>
